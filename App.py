@@ -3,6 +3,8 @@ import csv
 import json
 import requests
 
+# Phase 2 su Projet python
+
 def transcribe_audio(audio_file, lang):
     r = sr.Recognizer()
     with sr.AudioFile(audio_file) as source:
